@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+$score = 40;
+
+if ($score >= 38  ) {
+  echo " Exam Passed!";
+}
+?>
+ 
+</body>
+</html>

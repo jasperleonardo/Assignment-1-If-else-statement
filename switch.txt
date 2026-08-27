@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+$score = 45;
+
+$grade = "B";
+
+switch ($grade) {
+    case "A":
+        echo "Excellent";
+        break;
+
+    case "B":
+        echo "Passed";
+        break;
+
+    case "C":
+        echo "Failed";
+        break;
+
+    default:
+        echo "Invalid grade";
+}
+?>
+ 
+</body>
+</html>

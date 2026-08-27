@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+
+$score = 45;
+
+if ($score >= 48) {
+    echo "Excellent";
+} elseif ($score >= 38) {
+    echo "Passed";
+} else {
+    echo "Failed";
+}
+?>
+ 
+</body>
+</html>
